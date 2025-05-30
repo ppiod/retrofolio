@@ -1,0 +1,158 @@
+body {
+  background-color: #121212;
+  color: #e0e0e0;
+  font-family: 'Courier New', Courier, monospace;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.app-container {
+  max-width: 800px;
+  width: 100%;
+}
+
+.app-header {
+  text-align: center;
+  margin-bottom: 40px;
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 20px;
+}
+
+.app-header h1 {
+  font-size: 2.8em;
+  margin: 0;
+  text-transform: uppercase;
+  color: #ffffff;
+  letter-spacing: 2px;
+}
+
+.app-footer {
+  text-align: center;
+  margin-top: 50px;
+  padding-top: 20px;
+  border-top: 2px solid #e0e0e0;
+  font-size: 0.9em;
+  color: #a0a0a0;
+}
+
+ul {
+  list-style-type: '▷ ';
+  padding-left: 20px;
+  margin-top: 5px; 
+  margin-bottom: 5px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+p {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+a {
+  color: #80cbc4;
+  text-decoration: none;
+  border-bottom: 1px dashed #80cbc4;
+}
+
+a:hover {
+  background-color: #80cbc4;
+  color: #121212;
+  border-bottom-style: solid;
+}
+
+.profile-image {
+  display: block;
+  max-width: 150px;
+  height: auto;
+  margin: 10px auto 20px auto;
+  border: 2px solid #e0e0e0;
+  padding: 5px;
+  background-color: #2a2a2a;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 15px;
+  }
+
+  .app-header h1 {
+    font-size: 2.2em;
+    letter-spacing: 1.5px;
+  }
+
+  .app-header {
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+  }
+
+  .app-footer {
+    margin-top: 40px;
+    padding-top: 15px;
+    font-size: 0.85em;
+  }
+
+  .profile-image {
+    max-width: 120px;
+  }
+
+  ul {
+    padding-left: 18px;
+  }
+
+  li {
+    margin-bottom: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    padding: 10px;
+    font-size: 15px;
+  }
+
+  .app-header h1 {
+    font-size: 1.8em;
+    letter-spacing: 1px;
+  }
+
+  .app-header {
+    margin-bottom: 25px;
+    padding-bottom: 10px;
+    border-bottom-width: 1px;
+  }
+
+  .app-footer {
+    margin-top: 30px;
+    padding-top: 10px;
+    font-size: 0.8em;
+    border-top-width: 1px;
+  }
+  
+  .profile-image {
+    max-width: 100px;
+    margin-bottom: 15px;
+    border-width: 1px;
+    padding: 3px;
+  }
+
+  ul {
+    padding-left: 15px;
+  }
+
+  li {
+    margin-bottom: 6px;
+    font-size: 0.9em;
+  }
+
+  p {
+    font-size: 0.9em;
+    line-height: 1.5;
+  }
+}
