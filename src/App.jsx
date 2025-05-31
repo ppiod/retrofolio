@@ -35,6 +35,7 @@ function App() {
             <li><span className="text-highlight-green">JavaScript</span>: The language of the web.</li>
             <li><span className="text-highlight-green">TypeScript</span>: JavaScript with typing superpowers.</li>
             <li><span className="text-highlight-green">C++</span>: Performance and low-level control.</li>
+            <li><span className="text-highlight-green">Nyx</span>: My programming language designed for simplicity and ease of use.</li>
           </ul>
         </SectionBox>
 
