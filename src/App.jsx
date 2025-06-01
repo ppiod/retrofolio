@@ -8,10 +8,6 @@ function App() {
 
   return (
     <div className="app-container">
-      <header className="app-header">
-        <h1>Piod's RetroFolio</h1>
-      </header>
-
       <main>
         <SectionBox title="Hello!">
           <img 

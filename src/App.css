@@ -15,21 +15,6 @@ body {
   width: 100%;
 }
 
-.app-header {
-  text-align: center;
-  margin-bottom: 40px;
-  border-bottom: 2px solid #e0e0e0;
-  padding-bottom: 20px;
-}
-
-.app-header h1 {
-  font-size: 2.8em;
-  margin: 0;
-  text-transform: uppercase;
-  color: #ffffff;
-  letter-spacing: 2px;
-}
-
 .app-footer {
   text-align: center;
   margin-top: 50px;
@@ -107,16 +92,6 @@ a:hover {
     padding: 15px;
   }
 
-  .app-header h1 {
-    font-size: 2.2em;
-    letter-spacing: 1.5px;
-  }
-
-  .app-header {
-    margin-bottom: 30px;
-    padding-bottom: 15px;
-  }
-
   .app-footer {
     margin-top: 40px;
     padding-top: 15px;
@@ -141,17 +116,6 @@ a:hover {
   body {
     padding: 10px;
     font-size: 15px;
-  }
-
-  .app-header h1 {
-    font-size: 1.8em;
-    letter-spacing: 1px;
-  }
-
-  .app-header {
-    margin-bottom: 25px;
-    padding-bottom: 10px;
-    border-bottom-width: 1px;
   }
 
   .app-footer {
